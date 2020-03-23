@@ -1,0 +1,54 @@
+﻿生成启动时间为 2020/2/10 16:39:21。
+     1>项目“H:\csharp\CPlayer\CPlayer_static\CPlayer_static.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\CPlayer_static.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\CPlayer_static.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CPlayer_static.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Qt\CPlayer\caudioplayer.cpp ..\..\..\Qt\CPlayer\cffmpeg.cpp ..\..\..\Qt\CPlayer\cmediaplayer.cpp ..\..\..\Qt\CPlayer\cvideoplayer.cpp ..\..\..\Qt\CPlayer\onethreadpool.cpp
+         onethreadpool.cpp
+         cvideoplayer.cpp
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\cplayer\cvideoplayer.cpp(109): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+     1>h:\qt\cplayer\cvideoplayer.cpp(111): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+         cmediaplayer.cpp
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\cplayer\cmediaplayer.cpp(65): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+     1>h:\qt\cplayer\cmediaplayer.cpp(67): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+         cffmpeg.cpp
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         caudioplayer.cpp
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       Lib:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"H:\csharp\CPlayer\Debug\CPlayer_static.lib" /NOLOGO Debug\caudioplayer.obj
+         Debug\cffmpeg.obj
+         Debug\cmediaplayer.obj
+         Debug\cvideoplayer.obj
+         Debug\onethreadpool.obj
+         Debug\stdafx.obj
+         CPlayer_static.vcxproj -> H:\csharp\CPlayer\Debug\CPlayer_static.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\CPlayer_static.unsuccessfulbuild”。
+         正在对“Debug\CPlayer_static.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\csharp\CPlayer\CPlayer_static\CPlayer_static.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.20

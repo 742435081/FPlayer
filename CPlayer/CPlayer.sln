@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPlayer", "CPlayer\CPlayer.vcxproj", "{12F13A97-07BE-4E8E-83CC-8DEAE4EDF4D2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7FDA79D9-9AA3-493B-A54F-80BB31500374} = {7FDA79D9-9AA3-493B-A54F-80BB31500374}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPlayer_static", "CPlayer_static\CPlayer_static.vcxproj", "{7FDA79D9-9AA3-493B-A54F-80BB31500374}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12F13A97-07BE-4E8E-83CC-8DEAE4EDF4D2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{12F13A97-07BE-4E8E-83CC-8DEAE4EDF4D2}.Debug|Win32.Build.0 = Debug|Win32
+		{12F13A97-07BE-4E8E-83CC-8DEAE4EDF4D2}.Release|Win32.ActiveCfg = Release|Win32
+		{12F13A97-07BE-4E8E-83CC-8DEAE4EDF4D2}.Release|Win32.Build.0 = Release|Win32
+		{7FDA79D9-9AA3-493B-A54F-80BB31500374}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7FDA79D9-9AA3-493B-A54F-80BB31500374}.Debug|Win32.Build.0 = Debug|Win32
+		{7FDA79D9-9AA3-493B-A54F-80BB31500374}.Release|Win32.ActiveCfg = Release|Win32
+		{7FDA79D9-9AA3-493B-A54F-80BB31500374}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,527 @@
+﻿生成启动时间为 2020/2/10 16:39:33。
+     1>项目“H:\csharp\CPlayer\CPlayer\CPlayer.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\CPlayer.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       GenerateTargetFrameworkMonikerAttribute:
+       正在跳过目标“GenerateTargetFrameworkMonikerAttribute”，因为所有输出文件相对于输入文件而言都是最新的。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\CPlayer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /doc"Debug\\" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /analyze- /errorReport:prompt Stdafx.cpp /clr:nostdlib 
+         Stdafx.cpp
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CPlayer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /doc"Debug\\" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp AudioPlayer.cpp FFmpeg.cpp MediaPlayer.cpp VideoPlayer.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         AudioPlayer.cpp
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_thread.h(276): warning C4635: XML 文档注释 应用于“SDL_TLSCreate”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_audio.h(332): warning C4635: XML 文档注释 应用于“SDL_GetNumAudioDevices(System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_keyboard.h(62): warning C4635: XML 文档注释 应用于“SDL_GetKeyboardState(System.Int32*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_gamecontroller.h(88): warning C4635: XML 文档注释 应用于“SDL_GameControllerAddMappingsFromRW(SDL_RWops*,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\close_code.h(22): warning C4635: XML 文档注释 应用于“_SDL_Haptic”: XML 格式不正确: 此位置不允许空格。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_haptic.h(144): warning C4635: XML 文档注释 应用于“SDL_HapticDirection”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_haptic.h(731): warning C4635: XML 文档注释 应用于“SDL_HapticEffect”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_haptic.h(969): warning C4635: XML 文档注释 应用于“SDL_HapticQuery(_SDL_Haptic*)”: XML 格式不正确: 此位置不允许空格。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_render.h(1079): warning C4635: XML 文档注释 应用于“SDL_RenderGetMetalCommandEncoder(SDL_Renderer*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_version.h(64): warning C4635: XML 文档注释 应用于“SDL_GetVersion(SDL_version*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\attributes.h(21): warning C4635: XML 文档注释 应用于“av_log2(System.UInt32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(344): warning C4635: XML 文档注释 应用于“av_fast_realloc(System.Void*,System.UInt32*,System.UInt32)”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(378): warning C4635: XML 文档注释 应用于“av_fast_malloc(System.Void*,System.UInt32*,System.UInt32)”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(442): warning C4635: XML 文档注释 应用于“av_freep(System.Void*)”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(509): warning C4635: XML 文档注释 应用于“av_dynarray_add(System.Void*,System.Int32*,System.Void*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(695): warning C4635: XML 文档注释 应用于“AVRational”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h(77): warning C4635: XML 文档注释 应用于“av_cmp_q(AVRational,AVRational)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h(108): warning C4635: XML 文档注释 应用于“av_reduce(System.Int32*,System.Int32*,System.Int64,System.Int64,System.Int64)”: XML 格式不正确: 此位置不允许空格。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h(210): warning C4635: XML 文档注释 应用于“av_intfloat32”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mathematics.h(177): warning C4635: XML 文档注释 应用于“av_compare_mod(System.UInt64,System.UInt64,System.UInt64)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\log.h(125): warning C4635: XML 文档注释 应用于“AVClass.category”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\log.h(132): warning C4635: XML 文档注释 应用于“AVClass.get_category”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\log.h(358): warning C4635: XML 文档注释 应用于“AVPixelFormat”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/samplefmt.h(89): warning C4635: XML 文档注释 应用于“AVSampleFormat”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/samplefmt.h(207): warning C4635: XML 文档注释 应用于“av_samples_alloc(System.Byte**,System.Int32*,System.Int32,System.Int32,AVSampleFormat,System.Int32)”: XML 格式不正确: 要求分号。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/buffer.h(287): warning C4635: XML 文档注释 应用于“av_get_cpu_flags”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/channel_layout.h(158): warning C4635: XML 文档注释 应用于“av_get_channel_layout_string(System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte*,System.Int32,System.Int32,System.UInt64)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/channel_layout.h(215): warning C4635: XML 文档注释 应用于“av_get_standard_channel_layout(System.UInt32,System.UInt64*,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte!System.Runtime.CompilerServices.IsConst**)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/channel_layout.h(227): warning C4635: XML 文档注释 应用于“AVDictionaryEntry”: XML 格式不正确: 要求分号。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/dict.h(114): warning C4635: XML 文档注释 应用于“av_dict_set(AVDictionary**,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte!System.Runtime.CompilerServices.IsConst*,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte!System.Runtime.CompilerServices.IsConst*,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\dict.h(196): warning C4635: XML 文档注释 应用于“AVFrameSideDataType”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/frame.h(474): warning C4635: XML 文档注释 应用于“AVFrame.buf”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>H:\Qt\local\ffmpeg\include\libavutil/rational.h(22): warning C4635: XML 文档注释 应用于“AVCodecID”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(746): warning C4635: XML 文档注释 应用于“AVDiscard”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1201): warning C4635: XML 文档注释 应用于“AV_PKT_DATA_PARAM_CHANGE”: XML 格式不正确: 此位置不允许空格。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1577): warning C4635: XML 文档注释 应用于“AVCodecContext.codec_tag”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1827): warning C4635: XML 文档注释 应用于“AVCodecContext.b_quant_factor”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1863): warning C4635: XML 文档注释 应用于“AVCodecContext.i_quant_factor”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1988): warning C4635: XML 文档注释 应用于“AVCodecContext.dia_size”: XML 格式不正确: 此位置不允许空格。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2015): warning C4635: XML 文档注释 应用于“AVCodecContext.pre_dia_size”: XML 格式不正确: 此位置不允许空格。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2452): warning C4635: XML 文档注释 应用于“AVCodecContext.rc_max_available_vbv_use”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2459): warning C4635: XML 文档注释 应用于“AVCodecContext.rc_min_vbv_overflow_use”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2743): warning C4635: XML 文档注释 应用于“AVCodecContext.error”: XML 格式不正确: 此位置不允许空格。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2866): warning C4635: XML 文档注释 应用于“AVCodecContext.execute2”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(3510): warning C4635: XML 文档注释 应用于“AVCodec.wrapper_name”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(4280): warning C4635: XML 文档注释 应用于“avcodec_open2(AVCodecContext*,AVCodec!System.Runtime.CompilerServices.IsConst*,AVDictionary**)”: XML 格式不正确: 要求分号。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(4502): warning C4635: XML 文档注释 应用于“av_packet_shrink_side_data(AVPacket*,AVPacketSideDataType,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(4542): warning C4635: XML 文档注释 应用于“av_packet_unpack_dictionary(System.Byte!System.Runtime.CompilerServices.IsConst*,System.Int32,AVDictionary**)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(4782): warning C4635: XML 文档注释 应用于“avcodec_decode_video2(AVCodecContext*,AVFrame*,System.Int32*,AVPacket!System.Runtime.CompilerServices.IsConst*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(5168): warning C4635: XML 文档注释 应用于“AVCodecParserContext.dts_sync_point”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(5308): warning C4635: XML 文档注释 应用于“av_parser_parse2(AVCodecParserContext*,AVCodecContext*,System.Byte**,System.Int32*,System.Byte!System.Runtime.CompilerServices.IsConst*,System.Int32,System.Int64,System.Int64,System.Int64)”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(526): warning C4635: XML 文档注释 应用于“avio_seek(AVIOContext*,System.Int64,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(620): warning C4635: XML 文档注释 应用于“avio_get_str(AVIOContext*,System.Int32,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte*,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(638): warning C4635: XML 文档注释 应用于“avio_get_str16le(AVIOContext*,System.Int32,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte*,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(720): warning C4635: XML 文档注释 应用于“avio_close(AVIOContext*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(732): warning C4635: XML 文档注释 应用于“avio_closep(AVIOContext**)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(841): warning C4635: XML 文档注释 应用于“avio_handshake(AVIOContext*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h(22): warning C4635: XML 文档注释 应用于“av_image_fill_max_pixsteps(System.Int32*,System.Int32*,AVPixFmtDescriptor!System.Runtime.CompilerServices.IsConst*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+         FFmpeg.cpp
+     1>h:\qt\local\ffmpeg\include\libavutil\attributes.h(21): warning C4635: XML 文档注释 应用于“av_log2(System.UInt32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(344): warning C4635: XML 文档注释 应用于“av_fast_realloc(System.Void*,System.UInt32*,System.UInt32)”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(378): warning C4635: XML 文档注释 应用于“av_fast_malloc(System.Void*,System.UInt32*,System.UInt32)”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(442): warning C4635: XML 文档注释 应用于“av_freep(System.Void*)”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(509): warning C4635: XML 文档注释 应用于“av_dynarray_add(System.Void*,System.Int32*,System.Void*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(695): warning C4635: XML 文档注释 应用于“AVRational”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h(77): warning C4635: XML 文档注释 应用于“av_cmp_q(AVRational,AVRational)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h(108): warning C4635: XML 文档注释 应用于“av_reduce(System.Int32*,System.Int32*,System.Int64,System.Int64,System.Int64)”: XML 格式不正确: 此位置不允许空格。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h(210): warning C4635: XML 文档注释 应用于“av_intfloat32”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mathematics.h(177): warning C4635: XML 文档注释 应用于“av_compare_mod(System.UInt64,System.UInt64,System.UInt64)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\log.h(125): warning C4635: XML 文档注释 应用于“AVClass.category”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\log.h(132): warning C4635: XML 文档注释 应用于“AVClass.get_category”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\log.h(358): warning C4635: XML 文档注释 应用于“AVPixelFormat”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/samplefmt.h(89): warning C4635: XML 文档注释 应用于“AVSampleFormat”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/samplefmt.h(207): warning C4635: XML 文档注释 应用于“av_samples_alloc(System.Byte**,System.Int32*,System.Int32,System.Int32,AVSampleFormat,System.Int32)”: XML 格式不正确: 要求分号。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/buffer.h(287): warning C4635: XML 文档注释 应用于“av_get_cpu_flags”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/channel_layout.h(158): warning C4635: XML 文档注释 应用于“av_get_channel_layout_string(System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte*,System.Int32,System.Int32,System.UInt64)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/channel_layout.h(215): warning C4635: XML 文档注释 应用于“av_get_standard_channel_layout(System.UInt32,System.UInt64*,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte!System.Runtime.CompilerServices.IsConst**)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/channel_layout.h(227): warning C4635: XML 文档注释 应用于“AVDictionaryEntry”: XML 格式不正确: 要求分号。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/dict.h(114): warning C4635: XML 文档注释 应用于“av_dict_set(AVDictionary**,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte!System.Runtime.CompilerServices.IsConst*,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte!System.Runtime.CompilerServices.IsConst*,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\dict.h(196): warning C4635: XML 文档注释 应用于“AVFrameSideDataType”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/frame.h(474): warning C4635: XML 文档注释 应用于“AVFrame.buf”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>H:\Qt\local\ffmpeg\include\libavutil/rational.h(22): warning C4635: XML 文档注释 应用于“AVCodecID”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(746): warning C4635: XML 文档注释 应用于“AVDiscard”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1201): warning C4635: XML 文档注释 应用于“AV_PKT_DATA_PARAM_CHANGE”: XML 格式不正确: 此位置不允许空格。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1577): warning C4635: XML 文档注释 应用于“AVCodecContext.codec_tag”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1827): warning C4635: XML 文档注释 应用于“AVCodecContext.b_quant_factor”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1863): warning C4635: XML 文档注释 应用于“AVCodecContext.i_quant_factor”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1988): warning C4635: XML 文档注释 应用于“AVCodecContext.dia_size”: XML 格式不正确: 此位置不允许空格。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2015): warning C4635: XML 文档注释 应用于“AVCodecContext.pre_dia_size”: XML 格式不正确: 此位置不允许空格。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2452): warning C4635: XML 文档注释 应用于“AVCodecContext.rc_max_available_vbv_use”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2459): warning C4635: XML 文档注释 应用于“AVCodecContext.rc_min_vbv_overflow_use”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2743): warning C4635: XML 文档注释 应用于“AVCodecContext.error”: XML 格式不正确: 此位置不允许空格。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2866): warning C4635: XML 文档注释 应用于“AVCodecContext.execute2”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(3510): warning C4635: XML 文档注释 应用于“AVCodec.wrapper_name”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(4280): warning C4635: XML 文档注释 应用于“avcodec_open2(AVCodecContext*,AVCodec!System.Runtime.CompilerServices.IsConst*,AVDictionary**)”: XML 格式不正确: 要求分号。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(4502): warning C4635: XML 文档注释 应用于“av_packet_shrink_side_data(AVPacket*,AVPacketSideDataType,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(4542): warning C4635: XML 文档注释 应用于“av_packet_unpack_dictionary(System.Byte!System.Runtime.CompilerServices.IsConst*,System.Int32,AVDictionary**)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(4782): warning C4635: XML 文档注释 应用于“avcodec_decode_video2(AVCodecContext*,AVFrame*,System.Int32*,AVPacket!System.Runtime.CompilerServices.IsConst*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(5168): warning C4635: XML 文档注释 应用于“AVCodecParserContext.dts_sync_point”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(5308): warning C4635: XML 文档注释 应用于“av_parser_parse2(AVCodecParserContext*,AVCodecContext*,System.Byte**,System.Int32*,System.Byte!System.Runtime.CompilerServices.IsConst*,System.Int32,System.Int64,System.Int64,System.Int64)”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(526): warning C4635: XML 文档注释 应用于“avio_seek(AVIOContext*,System.Int64,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(620): warning C4635: XML 文档注释 应用于“avio_get_str(AVIOContext*,System.Int32,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte*,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(638): warning C4635: XML 文档注释 应用于“avio_get_str16le(AVIOContext*,System.Int32,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte*,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(720): warning C4635: XML 文档注释 应用于“avio_close(AVIOContext*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(732): warning C4635: XML 文档注释 应用于“avio_closep(AVIOContext**)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(841): warning C4635: XML 文档注释 应用于“avio_handshake(AVIOContext*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h(22): warning C4635: XML 文档注释 应用于“av_image_fill_max_pixsteps(System.Int32*,System.Int32*,AVPixFmtDescriptor!System.Runtime.CompilerServices.IsConst*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_thread.h(276): warning C4635: XML 文档注释 应用于“SDL_TLSCreate”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_audio.h(332): warning C4635: XML 文档注释 应用于“SDL_GetNumAudioDevices(System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_keyboard.h(62): warning C4635: XML 文档注释 应用于“SDL_GetKeyboardState(System.Int32*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_gamecontroller.h(88): warning C4635: XML 文档注释 应用于“SDL_GameControllerAddMappingsFromRW(SDL_RWops*,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\close_code.h(22): warning C4635: XML 文档注释 应用于“_SDL_Haptic”: XML 格式不正确: 此位置不允许空格。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_haptic.h(144): warning C4635: XML 文档注释 应用于“SDL_HapticDirection”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_haptic.h(731): warning C4635: XML 文档注释 应用于“SDL_HapticEffect”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_haptic.h(969): warning C4635: XML 文档注释 应用于“SDL_HapticQuery(_SDL_Haptic*)”: XML 格式不正确: 此位置不允许空格。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_render.h(1079): warning C4635: XML 文档注释 应用于“SDL_RenderGetMetalCommandEncoder(SDL_Renderer*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_version.h(64): warning C4635: XML 文档注释 应用于“SDL_GetVersion(SDL_version*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+         MediaPlayer.cpp
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_thread.h(276): warning C4635: XML 文档注释 应用于“SDL_TLSCreate”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_audio.h(332): warning C4635: XML 文档注释 应用于“SDL_GetNumAudioDevices(System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_keyboard.h(62): warning C4635: XML 文档注释 应用于“SDL_GetKeyboardState(System.Int32*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_gamecontroller.h(88): warning C4635: XML 文档注释 应用于“SDL_GameControllerAddMappingsFromRW(SDL_RWops*,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\close_code.h(22): warning C4635: XML 文档注释 应用于“_SDL_Haptic”: XML 格式不正确: 此位置不允许空格。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_haptic.h(144): warning C4635: XML 文档注释 应用于“SDL_HapticDirection”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_haptic.h(731): warning C4635: XML 文档注释 应用于“SDL_HapticEffect”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_haptic.h(969): warning C4635: XML 文档注释 应用于“SDL_HapticQuery(_SDL_Haptic*)”: XML 格式不正确: 此位置不允许空格。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_render.h(1079): warning C4635: XML 文档注释 应用于“SDL_RenderGetMetalCommandEncoder(SDL_Renderer*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_version.h(64): warning C4635: XML 文档注释 应用于“SDL_GetVersion(SDL_version*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\attributes.h(21): warning C4635: XML 文档注释 应用于“av_log2(System.UInt32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(344): warning C4635: XML 文档注释 应用于“av_fast_realloc(System.Void*,System.UInt32*,System.UInt32)”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(378): warning C4635: XML 文档注释 应用于“av_fast_malloc(System.Void*,System.UInt32*,System.UInt32)”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(442): warning C4635: XML 文档注释 应用于“av_freep(System.Void*)”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(509): warning C4635: XML 文档注释 应用于“av_dynarray_add(System.Void*,System.Int32*,System.Void*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(695): warning C4635: XML 文档注释 应用于“AVRational”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h(77): warning C4635: XML 文档注释 应用于“av_cmp_q(AVRational,AVRational)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h(108): warning C4635: XML 文档注释 应用于“av_reduce(System.Int32*,System.Int32*,System.Int64,System.Int64,System.Int64)”: XML 格式不正确: 此位置不允许空格。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h(210): warning C4635: XML 文档注释 应用于“av_intfloat32”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mathematics.h(177): warning C4635: XML 文档注释 应用于“av_compare_mod(System.UInt64,System.UInt64,System.UInt64)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\log.h(125): warning C4635: XML 文档注释 应用于“AVClass.category”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\log.h(132): warning C4635: XML 文档注释 应用于“AVClass.get_category”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\log.h(358): warning C4635: XML 文档注释 应用于“AVPixelFormat”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/samplefmt.h(89): warning C4635: XML 文档注释 应用于“AVSampleFormat”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/samplefmt.h(207): warning C4635: XML 文档注释 应用于“av_samples_alloc(System.Byte**,System.Int32*,System.Int32,System.Int32,AVSampleFormat,System.Int32)”: XML 格式不正确: 要求分号。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/buffer.h(287): warning C4635: XML 文档注释 应用于“av_get_cpu_flags”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/channel_layout.h(158): warning C4635: XML 文档注释 应用于“av_get_channel_layout_string(System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte*,System.Int32,System.Int32,System.UInt64)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/channel_layout.h(215): warning C4635: XML 文档注释 应用于“av_get_standard_channel_layout(System.UInt32,System.UInt64*,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte!System.Runtime.CompilerServices.IsConst**)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/channel_layout.h(227): warning C4635: XML 文档注释 应用于“AVDictionaryEntry”: XML 格式不正确: 要求分号。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/dict.h(114): warning C4635: XML 文档注释 应用于“av_dict_set(AVDictionary**,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte!System.Runtime.CompilerServices.IsConst*,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte!System.Runtime.CompilerServices.IsConst*,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\dict.h(196): warning C4635: XML 文档注释 应用于“AVFrameSideDataType”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/frame.h(474): warning C4635: XML 文档注释 应用于“AVFrame.buf”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>H:\Qt\local\ffmpeg\include\libavutil/rational.h(22): warning C4635: XML 文档注释 应用于“AVCodecID”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(746): warning C4635: XML 文档注释 应用于“AVDiscard”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1201): warning C4635: XML 文档注释 应用于“AV_PKT_DATA_PARAM_CHANGE”: XML 格式不正确: 此位置不允许空格。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1577): warning C4635: XML 文档注释 应用于“AVCodecContext.codec_tag”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1827): warning C4635: XML 文档注释 应用于“AVCodecContext.b_quant_factor”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1863): warning C4635: XML 文档注释 应用于“AVCodecContext.i_quant_factor”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1988): warning C4635: XML 文档注释 应用于“AVCodecContext.dia_size”: XML 格式不正确: 此位置不允许空格。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2015): warning C4635: XML 文档注释 应用于“AVCodecContext.pre_dia_size”: XML 格式不正确: 此位置不允许空格。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2452): warning C4635: XML 文档注释 应用于“AVCodecContext.rc_max_available_vbv_use”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2459): warning C4635: XML 文档注释 应用于“AVCodecContext.rc_min_vbv_overflow_use”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2743): warning C4635: XML 文档注释 应用于“AVCodecContext.error”: XML 格式不正确: 此位置不允许空格。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2866): warning C4635: XML 文档注释 应用于“AVCodecContext.execute2”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(3510): warning C4635: XML 文档注释 应用于“AVCodec.wrapper_name”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(4280): warning C4635: XML 文档注释 应用于“avcodec_open2(AVCodecContext*,AVCodec!System.Runtime.CompilerServices.IsConst*,AVDictionary**)”: XML 格式不正确: 要求分号。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(4502): warning C4635: XML 文档注释 应用于“av_packet_shrink_side_data(AVPacket*,AVPacketSideDataType,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(4542): warning C4635: XML 文档注释 应用于“av_packet_unpack_dictionary(System.Byte!System.Runtime.CompilerServices.IsConst*,System.Int32,AVDictionary**)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(4782): warning C4635: XML 文档注释 应用于“avcodec_decode_video2(AVCodecContext*,AVFrame*,System.Int32*,AVPacket!System.Runtime.CompilerServices.IsConst*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(5168): warning C4635: XML 文档注释 应用于“AVCodecParserContext.dts_sync_point”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(5308): warning C4635: XML 文档注释 应用于“av_parser_parse2(AVCodecParserContext*,AVCodecContext*,System.Byte**,System.Int32*,System.Byte!System.Runtime.CompilerServices.IsConst*,System.Int32,System.Int64,System.Int64,System.Int64)”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(526): warning C4635: XML 文档注释 应用于“avio_seek(AVIOContext*,System.Int64,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(620): warning C4635: XML 文档注释 应用于“avio_get_str(AVIOContext*,System.Int32,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte*,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(638): warning C4635: XML 文档注释 应用于“avio_get_str16le(AVIOContext*,System.Int32,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte*,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(720): warning C4635: XML 文档注释 应用于“avio_close(AVIOContext*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(732): warning C4635: XML 文档注释 应用于“avio_closep(AVIOContext**)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(841): warning C4635: XML 文档注释 应用于“avio_handshake(AVIOContext*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h(22): warning C4635: XML 文档注释 应用于“av_image_fill_max_pixsteps(System.Int32*,System.Int32*,AVPixFmtDescriptor!System.Runtime.CompilerServices.IsConst*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+         VideoPlayer.cpp
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_thread.h(276): warning C4635: XML 文档注释 应用于“SDL_TLSCreate”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_audio.h(332): warning C4635: XML 文档注释 应用于“SDL_GetNumAudioDevices(System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_keyboard.h(62): warning C4635: XML 文档注释 应用于“SDL_GetKeyboardState(System.Int32*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_gamecontroller.h(88): warning C4635: XML 文档注释 应用于“SDL_GameControllerAddMappingsFromRW(SDL_RWops*,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\close_code.h(22): warning C4635: XML 文档注释 应用于“_SDL_Haptic”: XML 格式不正确: 此位置不允许空格。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_haptic.h(144): warning C4635: XML 文档注释 应用于“SDL_HapticDirection”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_haptic.h(731): warning C4635: XML 文档注释 应用于“SDL_HapticEffect”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_haptic.h(969): warning C4635: XML 文档注释 应用于“SDL_HapticQuery(_SDL_Haptic*)”: XML 格式不正确: 此位置不允许空格。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_render.h(1079): warning C4635: XML 文档注释 应用于“SDL_RenderGetMetalCommandEncoder(SDL_Renderer*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\sdl2\msvc\include\sdl2\SDL_version.h(64): warning C4635: XML 文档注释 应用于“SDL_GetVersion(SDL_version*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\attributes.h(21): warning C4635: XML 文档注释 应用于“av_log2(System.UInt32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(344): warning C4635: XML 文档注释 应用于“av_fast_realloc(System.Void*,System.UInt32*,System.UInt32)”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(378): warning C4635: XML 文档注释 应用于“av_fast_malloc(System.Void*,System.UInt32*,System.UInt32)”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(442): warning C4635: XML 文档注释 应用于“av_freep(System.Void*)”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(509): warning C4635: XML 文档注释 应用于“av_dynarray_add(System.Void*,System.Int32*,System.Void*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\mem.h(695): warning C4635: XML 文档注释 应用于“AVRational”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h(77): warning C4635: XML 文档注释 应用于“av_cmp_q(AVRational,AVRational)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h(108): warning C4635: XML 文档注释 应用于“av_reduce(System.Int32*,System.Int32*,System.Int64,System.Int64,System.Int64)”: XML 格式不正确: 此位置不允许空格。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h(210): warning C4635: XML 文档注释 应用于“av_intfloat32”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\mathematics.h(177): warning C4635: XML 文档注释 应用于“av_compare_mod(System.UInt64,System.UInt64,System.UInt64)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\log.h(125): warning C4635: XML 文档注释 应用于“AVClass.category”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\log.h(132): warning C4635: XML 文档注释 应用于“AVClass.get_category”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\log.h(358): warning C4635: XML 文档注释 应用于“AVPixelFormat”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/samplefmt.h(89): warning C4635: XML 文档注释 应用于“AVSampleFormat”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/samplefmt.h(207): warning C4635: XML 文档注释 应用于“av_samples_alloc(System.Byte**,System.Int32*,System.Int32,System.Int32,AVSampleFormat,System.Int32)”: XML 格式不正确: 要求分号。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/buffer.h(287): warning C4635: XML 文档注释 应用于“av_get_cpu_flags”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/channel_layout.h(158): warning C4635: XML 文档注释 应用于“av_get_channel_layout_string(System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte*,System.Int32,System.Int32,System.UInt64)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/channel_layout.h(215): warning C4635: XML 文档注释 应用于“av_get_standard_channel_layout(System.UInt32,System.UInt64*,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte!System.Runtime.CompilerServices.IsConst**)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/channel_layout.h(227): warning C4635: XML 文档注释 应用于“AVDictionaryEntry”: XML 格式不正确: 要求分号。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/dict.h(114): warning C4635: XML 文档注释 应用于“av_dict_set(AVDictionary**,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte!System.Runtime.CompilerServices.IsConst*,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte!System.Runtime.CompilerServices.IsConst*,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\dict.h(196): warning C4635: XML 文档注释 应用于“AVFrameSideDataType”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/frame.h(474): warning C4635: XML 文档注释 应用于“AVFrame.buf”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavutil/rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>H:\Qt\local\ffmpeg\include\libavutil/rational.h(22): warning C4635: XML 文档注释 应用于“AVCodecID”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(746): warning C4635: XML 文档注释 应用于“AVDiscard”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1201): warning C4635: XML 文档注释 应用于“AV_PKT_DATA_PARAM_CHANGE”: XML 格式不正确: 此位置不允许空格。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1577): warning C4635: XML 文档注释 应用于“AVCodecContext.codec_tag”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1827): warning C4635: XML 文档注释 应用于“AVCodecContext.b_quant_factor”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1863): warning C4635: XML 文档注释 应用于“AVCodecContext.i_quant_factor”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(1988): warning C4635: XML 文档注释 应用于“AVCodecContext.dia_size”: XML 格式不正确: 此位置不允许空格。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2015): warning C4635: XML 文档注释 应用于“AVCodecContext.pre_dia_size”: XML 格式不正确: 此位置不允许空格。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2452): warning C4635: XML 文档注释 应用于“AVCodecContext.rc_max_available_vbv_use”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2459): warning C4635: XML 文档注释 应用于“AVCodecContext.rc_min_vbv_overflow_use”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2743): warning C4635: XML 文档注释 应用于“AVCodecContext.error”: XML 格式不正确: 此位置不允许空格。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(2866): warning C4635: XML 文档注释 应用于“AVCodecContext.execute2”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(3510): warning C4635: XML 文档注释 应用于“AVCodec.wrapper_name”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(4280): warning C4635: XML 文档注释 应用于“avcodec_open2(AVCodecContext*,AVCodec!System.Runtime.CompilerServices.IsConst*,AVDictionary**)”: XML 格式不正确: 要求分号。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(4502): warning C4635: XML 文档注释 应用于“av_packet_shrink_side_data(AVPacket*,AVPacketSideDataType,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(4542): warning C4635: XML 文档注释 应用于“av_packet_unpack_dictionary(System.Byte!System.Runtime.CompilerServices.IsConst*,System.Int32,AVDictionary**)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(4782): warning C4635: XML 文档注释 应用于“avcodec_decode_video2(AVCodecContext*,AVFrame*,System.Int32*,AVPacket!System.Runtime.CompilerServices.IsConst*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(5168): warning C4635: XML 文档注释 应用于“AVCodecParserContext.dts_sync_point”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>H:\Qt\local\ffmpeg\include\libavcodec/avcodec.h(5308): warning C4635: XML 文档注释 应用于“av_parser_parse2(AVCodecParserContext*,AVCodecContext*,System.Byte**,System.Int32*,System.Byte!System.Runtime.CompilerServices.IsConst*,System.Int32,System.Int64,System.Int64,System.Int64)”: XML 格式不正确: 要求分号。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(526): warning C4635: XML 文档注释 应用于“avio_seek(AVIOContext*,System.Int64,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(620): warning C4635: XML 文档注释 应用于“avio_get_str(AVIOContext*,System.Int32,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte*,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(638): warning C4635: XML 文档注释 应用于“avio_get_str16le(AVIOContext*,System.Int32,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte*,System.Int32)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(720): warning C4635: XML 文档注释 应用于“avio_close(AVIOContext*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(732): warning C4635: XML 文档注释 应用于“avio_closep(AVIOContext**)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavformat\avio.h(841): warning C4635: XML 文档注释 应用于“avio_handshake(AVIOContext*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>h:\qt\local\ffmpeg\include\libavutil\rational.h(22): warning C4635: XML 文档注释 应用于“av_image_fill_max_pixsteps(System.Int32*,System.Int32*,AVPixFmtDescriptor!System.Runtime.CompilerServices.IsConst*)”: XML 格式不正确: 文档顶层存在无效内容。
+         
+         正在生成代码...
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /doc"Debug\\" /TP /analyze- /errorReport:prompt "Z:\TEMP\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\csharp\CPlayer\Debug\CPlayer.dll" /INCREMENTAL /NOLOGO avcodec.lib avformat.lib avutil.lib swresample.lib swscale.lib SDL2.lib CPlayer_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CPlayer.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\csharp\CPlayer\Debug\CPlayer.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\AudioPlayer.obj
+         Debug\FFmpeg.obj
+         Debug\MediaPlayer.obj
+         Debug\Stdafx.obj
+         Debug\VideoPlayer.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>CPlayer_static.lib(onethreadpool.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/INCREMENTAL:NO”规范)
+         CPlayer.vcxproj -> H:\csharp\CPlayer\Debug\CPlayer.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"H:\csharp\CPlayer\Debug\CPlayer.dll;#2" /manifest Debug\CPlayer.dll.intermediate.manifest
+       XdcMake:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\xdcmake.exe /old "CPlayer" /nologo /Fo"H:\csharp\CPlayer\Debug\CPlayer.xml" /FsDebug\AssemblyInfo.xdc /FsDebug\AudioPlayer.xdc /FsDebug\FFmpeg.xdc /FsDebug\MediaPlayer.xdc /FsDebug\Stdafx.xdc /FsDebug\VideoPlayer.xdc /Fs"Debug\.NETFramework,Version=v4.0.AssemblyAttributes.xdc"
+       FinalizeBuildStatus:
+         正在删除文件“Debug\CPlayer.unsuccessfulbuild”。
+         正在对“Debug\CPlayer.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\csharp\CPlayer\CPlayer\CPlayer.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:22.20

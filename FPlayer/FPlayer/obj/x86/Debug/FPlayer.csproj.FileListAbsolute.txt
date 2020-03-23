@@ -1,0 +1,12 @@
+H:\csharp\FPlayer\FPlayer\bin\Debug\FPlayer.exe
+H:\csharp\FPlayer\FPlayer\bin\Debug\FPlayer.pdb
+H:\csharp\FPlayer\FPlayer\bin\Debug\CPlayer.dll
+H:\csharp\FPlayer\FPlayer\bin\Debug\CPlayer.pdb
+H:\csharp\FPlayer\FPlayer\bin\Debug\CPlayer.xml
+H:\csharp\FPlayer\FPlayer\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\csharp\FPlayer\FPlayer\obj\x86\Debug\FPlayer.Frm.FrmResource.resources
+H:\csharp\FPlayer\FPlayer\obj\x86\Debug\FPlayer.Properties.Resources.resources
+H:\csharp\FPlayer\FPlayer\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\csharp\FPlayer\FPlayer\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\csharp\FPlayer\FPlayer\obj\x86\Debug\FPlayer.exe
+H:\csharp\FPlayer\FPlayer\obj\x86\Debug\FPlayer.pdb
